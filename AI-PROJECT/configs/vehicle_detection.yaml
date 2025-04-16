@@ -1,0 +1,11 @@
+# YOLOv8 configuration file for vehicle detection
+
+# Dataset paths - using absolute paths to ensure correct loading
+path: /home/adminisatator/Downloads/AI-PROJECT-main/data/augmented_dataset  # Dataset root path
+train: /content/AI-PROJECT-master/data/augmented_dataset/train/images
+val: /content/AI-PROJECT-master/data/augmented_dataset/val/images
+test: /content/AI-PROJECT-master/data/augmented_dataset/test/images
+
+# Classes
+nc: 1
+names: ['vehicle']
